@@ -5,6 +5,7 @@ import AboutUs from "./container/AboutUs/AboutUs";
 import SpecialMenu from "./container/Menu/SpecialMenu";
 import Chef from "./container/Chef/Chef";
 import Intro from "./container/Intro/Intro";
+import Laurels from "./container/Laurels/Laurels";
 export default function App() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function App() {
       <SpecialMenu />
       <Chef />
       <Intro />
+      <Laurels />
     </>
   );
 }
