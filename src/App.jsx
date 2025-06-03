@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./container/Header/Header";
 import AboutUs from "./container/AboutUs/AboutUs";
 import SpecialMenu from "./container/Menu/SpecialMenu";
+import Chef from "./container/Chef/Chef";
 export default function App() {
   return (
     <>
@@ -10,6 +11,7 @@ export default function App() {
       <Header />
       <AboutUs />
       <SpecialMenu />
+      <Chef />
     </>
   );
 }
