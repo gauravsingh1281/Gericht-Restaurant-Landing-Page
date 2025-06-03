@@ -7,6 +7,7 @@ import Chef from "./container/Chef/Chef";
 import Intro from "./container/Intro/Intro";
 import Laurels from "./container/Laurels/Laurels";
 import Gallery from "./container/Gallery/Gallery";
+import FindUs from "./container/Findus/Findus";
 export default function App() {
   return (
     <>
@@ -18,6 +19,7 @@ export default function App() {
       <Intro />
       <Laurels />
       <Gallery />
+      <FindUs />
     </>
   );
 }
